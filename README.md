@@ -1,13 +1,17 @@
 # Titolo
-
+ 
 testo
 
 ## sottotitolo
 
-testo 
 
-* elenco
-* puntato
+### DONE 
+
+* downgraded patch from 2.6.34 to 2.6.32
+
+### TODO
+
+* fix common.c problem
 
 ---
 
