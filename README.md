@@ -11,7 +11,7 @@ testo
 
 ### TODO
 
-* fix common.c problem
+* fix common.c problem [http://pastebin.com/dBPdV2vg]
 
 ---
 
