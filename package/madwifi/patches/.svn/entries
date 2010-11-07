@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/madwifi/patches
 svn://svn.openwrt.org/openwrt
 
@@ -502,40 +502,6 @@ nbd
 
 484
 
-448-beacon_handling_fixes.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-7a740f61a7f1fd416d43dadd6d5ac7fa
-2009-10-14T08:29:37.523053Z
-18045
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15093
-
 334-input.patch
 file
 
@@ -569,6 +535,40 @@ nbd
 
 
 397
+
+448-beacon_handling_fixes.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+7a740f61a7f1fd416d43dadd6d5ac7fa
+2009-10-14T08:29:37.523053Z
+18045
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15093
 
 385-antenna_fix.patch
 file
@@ -604,40 +604,6 @@ nbd
 
 333
 
-407-new_athinfo.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-e24cb7be2b17d9f0048f168670759251
-2008-11-02T13:03:03.904543Z
-13095
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78553
-
 367-roaming.patch
 file
 
@@ -671,6 +637,40 @@ nbd
 
 
 2657
+
+407-new_athinfo.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+e24cb7be2b17d9f0048f168670759251
+2008-11-02T13:03:03.904543Z
+13095
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78553
 
 300-napi_polling.patch
 file
@@ -740,40 +740,6 @@ nbd
 
 313
 
-421-channel_handling.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-17b959fce1bd323752408a3c326e72e4
-2009-10-17T04:56:05.093066Z
-18052
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-42809
-
 380-noderef_hack.patch
 file
 
@@ -807,6 +773,40 @@ nbd
 
 
 479
+
+421-channel_handling.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+17b959fce1bd323752408a3c326e72e4
+2009-10-17T04:56:05.093066Z
+18052
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+42809
 
 389-autochannel.patch
 file
@@ -842,14 +842,14 @@ nbd
 
 7716
 
-352-ani_fix.patch
+366-bstuck_thresh.patch
 file
 
 
 
 
 2010-11-07T22:16:49.000000Z
-070972905fa99ab1428c08a6c20a755a
+e41f465ec2916f9f1d88e6038f13b3da
 2009-03-25T01:26:20.826066Z
 15029
 nbd
@@ -874,7 +874,7 @@ nbd
 
 
 
-7439
+2003
 
 358-ignore_broken_bssid.patch
 file
@@ -910,14 +910,14 @@ nbd
 
 573
 
-366-bstuck_thresh.patch
+352-ani_fix.patch
 file
 
 
 
 
 2010-11-07T22:16:49.000000Z
-e41f465ec2916f9f1d88e6038f13b3da
+070972905fa99ab1428c08a6c20a755a
 2009-03-25T01:26:20.826066Z
 15029
 nbd
@@ -942,7 +942,7 @@ nbd
 
 
 
-2003
+7439
 
 102-multicall_binary.patch
 file
@@ -2202,40 +2202,6 @@ nbd
 
 1232
 
-435-ibss_neighbor_fix.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-767fc2147db5915a226912884ced50f5
-2009-05-21T18:23:53.538028Z
-15964
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-514
-
 394-probereq.patch
 file
 
@@ -2269,6 +2235,40 @@ nbd
 
 
 2269
+
+435-ibss_neighbor_fix.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+767fc2147db5915a226912884ced50f5
+2009-05-21T18:23:53.538028Z
+15964
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+514
 
 461-rx_stats_count_fix.patch
 file
@@ -2406,40 +2406,6 @@ nbd
 
 3504
 
-340-maxrate.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-343092f1fc5f38975248543b2c84b548
-2009-05-21T18:11:08.778172Z
-15961
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3499
-
 122-replayfail_workaround.patch
 file
 
@@ -2473,6 +2439,40 @@ nbd
 
 
 438
+
+340-maxrate.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+343092f1fc5f38975248543b2c84b548
+2009-05-21T18:11:08.778172Z
+15961
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3499
 
 444-beacon_update_war.patch
 file
@@ -2508,40 +2508,6 @@ nbd
 
 640
 
-413-rxorn.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-1853aaa8fd9a740530b7b3ad12cf72a8
-2009-05-31T02:25:32.759372Z
-16224
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1139
-
 310-noise_get.patch
 file
 
@@ -2575,6 +2541,40 @@ nbd
 
 
 2019
+
+413-rxorn.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+1853aaa8fd9a740530b7b3ad12cf72a8
+2009-05-31T02:25:32.759372Z
+16224
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1139
 
 333-apscan_mode.patch
 file
@@ -2780,40 +2780,6 @@ nbd
 
 1786
 
-355-eap_auth_disassoc.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-d99a1f2bd5a0ff49d70a1dae5db49c23
-2009-03-25T01:26:20.826066Z
-15029
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2441
-
 374-nbtt_fix.patch
 file
 
@@ -2847,6 +2813,40 @@ nbd
 
 
 826
+
+355-eap_auth_disassoc.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+d99a1f2bd5a0ff49d70a1dae5db49c23
+2009-03-25T01:26:20.826066Z
+15029
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2441
 
 406-monitor_r3711.patch
 file
@@ -3018,40 +3018,6 @@ nbd
 
 5339
 
-386-acl_crashfix.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-b4799e30065e2e9d7da09d33f50ab1ba
-2008-11-28T20:46:52.860532Z
-13416
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3363
-
 458-ibss_wpa_none.patch
 file
 
@@ -3085,6 +3051,40 @@ nbd
 
 
 550
+
+386-acl_crashfix.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+b4799e30065e2e9d7da09d33f50ab1ba
+2008-11-28T20:46:52.860532Z
+13416
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3363
 
 395-ath_ff_unmap.patch
 file
@@ -3256,40 +3256,6 @@ nbd
 
 807
 
-439-wlanconfig_stack_usage.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-2dd87d754cf44bd3521fb11dac39f756
-2009-07-12T00:00:51.166452Z
-16788
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-469
-
 104-autocreate_none.patch
 file
 
@@ -3323,6 +3289,40 @@ has-props
 
 
 261
+
+439-wlanconfig_stack_usage.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+2dd87d754cf44bd3521fb11dac39f756
+2009-07-12T00:00:51.166452Z
+16788
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+469
 
 347-tuning.patch
 file
@@ -3494,16 +3494,16 @@ nbd
 
 1190
 
-425-rc_rexmit.patch
+341-minrate.patch
 file
 
 
 
 
 2010-11-07T22:16:49.000000Z
-11d108423f3c089c98edca43479d6727
-2009-09-09T00:17:13.655776Z
-17545
+f6abf964eadc85d1a83024d6804ef0e5
+2009-05-21T18:11:08.778172Z
+15961
 nbd
 
 
@@ -3526,41 +3526,7 @@ nbd
 
 
 
-16904
-
-403-changeset_r3605.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-a009274244c1221053d4119f852ae0c7
-2008-11-28T20:46:52.860532Z
-13416
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2449
+4341
 
 382-relax_bintval.patch
 file
@@ -3596,16 +3562,16 @@ nbd
 
 625
 
-341-minrate.patch
+403-changeset_r3605.patch
 file
 
 
 
 
 2010-11-07T22:16:49.000000Z
-f6abf964eadc85d1a83024d6804ef0e5
-2009-05-21T18:11:08.778172Z
-15961
+a009274244c1221053d4119f852ae0c7
+2008-11-28T20:46:52.860532Z
+13416
 nbd
 
 
@@ -3628,7 +3594,41 @@ nbd
 
 
 
-4341
+2449
+
+425-rc_rexmit.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+11d108423f3c089c98edca43479d6727
+2009-09-09T00:17:13.655776Z
+17545
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16904
 
 124-linux24_compat.patch
 file
@@ -3732,40 +3732,6 @@ nbd
 
 436
 
-445-fix_ps_sta_count.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-d464c207acba824e0c6ea803367b9ace
-2009-08-19T14:48:31.697008Z
-17312
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-621
-
 332-reset_beacons.patch
 file
 
@@ -3799,6 +3765,40 @@ nbd
 
 
 390
+
+445-fix_ps_sta_count.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+d464c207acba824e0c6ea803367b9ace
+2009-08-19T14:48:31.697008Z
+17312
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+621
 
 378-adhoc_crash_fix.patch
 file
@@ -4072,40 +4072,6 @@ nbd
 
 2218
 
-353-devid.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-921ccb64e623bf6ce663bd69acb54464
-2008-11-02T13:04:36.229858Z
-13096
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-439
-
 447-sta_reconnect.patch
 file
 
@@ -4140,16 +4106,16 @@ nbd
 
 911
 
-409-wext_compat.patch
+353-devid.patch
 file
 
 
 
 
 2010-11-07T22:16:49.000000Z
-be652149832b9628bc5de100538afa28
-2008-11-02T13:03:03.904543Z
-13095
+921ccb64e623bf6ce663bd69acb54464
+2008-11-02T13:04:36.229858Z
+13096
 nbd
 
 
@@ -4172,7 +4138,7 @@ nbd
 
 
 
-5141
+439
 
 390-frame_type.patch
 file
@@ -4207,6 +4173,40 @@ nbd
 
 
 378
+
+409-wext_compat.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+be652149832b9628bc5de100538afa28
+2008-11-02T13:03:03.904543Z
+13095
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5141
 
 317-bmask.patch
 file
@@ -4276,40 +4276,6 @@ nbd
 
 8506
 
-400-new_hal.patch
-file
-
-
-
-
-2010-11-07T22:16:49.000000Z
-e036fcccb2fa3058264fef2b4168a668
-2009-09-09T00:17:13.655776Z
-17545
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5432
-
 373-sanity_check.patch
 file
 
@@ -4343,6 +4309,40 @@ nbd
 
 
 350
+
+400-new_hal.patch
+file
+
+
+
+
+2010-11-07T22:16:49.000000Z
+e036fcccb2fa3058264fef2b4168a668
+2009-09-09T00:17:13.655776Z
+17545
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5432
 
 200-no_debug.patch
 file

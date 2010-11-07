@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux
 svn://svn.openwrt.org/openwrt
 
@@ -26,10 +26,10 @@ hauke
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-ifxmips
+generic-2.6
 dir
 
-generic-2.6
+ifxmips
 dir
 
 ppc44x
@@ -44,28 +44,28 @@ dir
 orion
 dir
 
-octeon
-dir
-
 xburst
 dir
 
-kirkwood
+octeon
 dir
 
 ar7
 dir
 
+kirkwood
+dir
+
 ar71xx
 dir
 
-avr32
+uml
 dir
 
 rb532
 dir
 
-uml
+avr32
 dir
 
 cobalt

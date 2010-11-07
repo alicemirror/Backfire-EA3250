@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/ar71xx/files/arch/mips/ar71xx
 svn://svn.openwrt.org/openwrt
 
@@ -536,18 +536,17 @@ has-props
 
 6033
 
-devices.c
+mach-pb92.c
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-5c37d34db4e043bb2fae9d5b5e1e3a8f
-2010-03-28T00:35:44.283483Z
-20528
+24f25192b80865822930ce4325ca071f
+2010-03-28T00:36:04.556392Z
+20529
 nbd
-has-props
 
 
 
@@ -568,7 +567,8 @@ has-props
 
 
 
-12820
+
+2525
 
 mach-mzk-w04nu.c
 file
@@ -604,17 +604,18 @@ has-props
 
 3913
 
-mach-pb92.c
+devices.c
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-24f25192b80865822930ce4325ca071f
-2010-03-28T00:36:04.556392Z
-20529
+5c37d34db4e043bb2fae9d5b5e1e3a8f
+2010-03-28T00:35:44.283483Z
+20528
 nbd
+has-props
 
 
 
@@ -635,42 +636,7 @@ nbd
 
 
 
-
-2525
-
-dev-dsa.c
-file
-
-
-
-
-2010-11-07T22:16:34.000000Z
-9ca72839069d9cd6b43bda36a850fd54
-2009-12-26T14:19:26.074353Z
-18943
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1115
+12820
 
 nvram.c
 file
@@ -705,6 +671,40 @@ juhosg
 
 
 1484
+
+dev-dsa.c
+file
+
+
+
+
+2010-11-07T22:16:34.000000Z
+9ca72839069d9cd6b43bda36a850fd54
+2009-12-26T14:19:26.074353Z
+18943
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1115
 
 mach-wrt400n.c
 file
@@ -808,16 +808,16 @@ has-props
 
 1384
 
-dev-ar913x-wmac.c
+nvram.h
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-2d1f9d80b70a3706dc372a0bdfd7fc18
-2010-03-18T19:18:46.539370Z
-20279
+ae259611aa2f9813705b426157d7ad36
+2009-12-27T20:59:54.778030Z
+18951
 juhosg
 
 
@@ -840,7 +840,7 @@ juhosg
 
 
 
-1724
+574
 
 dev-dsa.h
 file
@@ -876,16 +876,16 @@ juhosg
 
 558
 
-nvram.h
+dev-ar913x-wmac.c
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-ae259611aa2f9813705b426157d7ad36
-2009-12-27T20:59:54.778030Z
-18951
+2d1f9d80b70a3706dc372a0bdfd7fc18
+2010-03-18T19:18:46.539370Z
+20279
 juhosg
 
 
@@ -908,7 +908,7 @@ juhosg
 
 
 
-574
+1724
 
 mach-wzr-hp-g300nh.c
 file
@@ -978,40 +978,6 @@ has-props
 
 7038
 
-dev-pb42-pci.c
-file
-
-
-
-
-2010-11-07T22:16:34.000000Z
-55c6a18ae7c23aa5bf66862cd92fb0df
-2009-12-25T13:09:04.893556Z
-18932
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-894
-
 Makefile
 file
 
@@ -1045,6 +1011,40 @@ has-props
 
 
 2398
+
+dev-pb42-pci.c
+file
+
+
+
+
+2010-11-07T22:16:34.000000Z
+55c6a18ae7c23aa5bf66862cd92fb0df
+2009-12-25T13:09:04.893556Z
+18932
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+894
 
 dev-ar913x-wmac.h
 file

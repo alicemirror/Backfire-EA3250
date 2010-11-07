@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/include/site
 svn://svn.openwrt.org/openwrt
 
@@ -570,40 +570,6 @@ has-props
 
 83
 
-i486-openwrt-linux-gnu
-file
-
-
-
-
-2010-11-07T22:16:26.000000Z
-f9db20f5e2ed5a6cd90a448631741106
-2009-01-08T01:49:11.690142Z
-13931
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-79
-
 mips64-openwrt-linux-uclibc
 file
 
@@ -637,6 +603,40 @@ nbd
 
 
 84
+
+i486-openwrt-linux-gnu
+file
+
+
+
+
+2010-11-07T22:16:26.000000Z
+f9db20f5e2ed5a6cd90a448631741106
+2009-01-08T01:49:11.690142Z
+13931
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79
 
 i686-openwrt-linux-gnu
 file
@@ -740,40 +740,6 @@ has-props
 
 81
 
-arm-openwrt-linux-gnueabi
-file
-
-
-
-
-2010-11-07T22:16:26.000000Z
-59b22a4c8a19cbae00066e4cc0634a47
-2009-01-08T01:49:11.690142Z
-13931
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78
-
 cris-openwrt-linux-gnu
 file
 
@@ -807,6 +773,40 @@ nico
 
 
 79
+
+arm-openwrt-linux-gnueabi
+file
+
+
+
+
+2010-11-07T22:16:26.000000Z
+59b22a4c8a19cbae00066e4cc0634a47
+2009-01-08T01:49:11.690142Z
+13931
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78
 
 m68k-linux
 file
@@ -842,40 +842,6 @@ kaloz
 
 637
 
-armeb-linux
-file
-
-
-
-
-2010-11-07T22:16:26.000000Z
-c949ce8dc5bdd5d101c1699e4880e522
-2008-12-14T17:10:15.900174Z
-13627
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-694
-
 mips64el-openwrt-linux-gnu
 file
 
@@ -909,6 +875,40 @@ nbd
 
 
 81
+
+armeb-linux
+file
+
+
+
+
+2010-11-07T22:16:26.000000Z
+c949ce8dc5bdd5d101c1699e4880e522
+2008-12-14T17:10:15.900174Z
+13627
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+694
 
 i486-linux
 file
@@ -978,40 +978,6 @@ florian
 
 694
 
-mips64el-openwrt-linux-uclibc
-file
-
-
-
-
-2010-11-07T22:16:26.000000Z
-1476e4f5f381d6b52d5750ecd610e421
-2009-04-18T17:03:55.057985Z
-15249
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-84
-
 x86_64-linux
 file
 
@@ -1045,6 +1011,40 @@ has-props
 
 
 694
+
+mips64el-openwrt-linux-uclibc
+file
+
+
+
+
+2010-11-07T22:16:26.000000Z
+1476e4f5f381d6b52d5750ecd610e421
+2009-04-18T17:03:55.057985Z
+15249
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+84
 
 cris-linux
 file

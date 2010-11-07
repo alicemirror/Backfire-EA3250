@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/ar71xx/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -808,40 +808,6 @@ jow
 
 469
 
-123-dsa-add-ar7240-built-in-switch-support.patch
-file
-
-
-
-
-2010-11-07T22:16:35.000000Z
-9f3f9962212959e235f534baa5784ec8
-2010-03-01T07:34:41.093426Z
-19927
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-765
-
 110-usb-ehci-add-war-for-synopsys-hc-bug.patch
 file
 
@@ -876,16 +842,16 @@ jow
 
 687
 
-122-dsa-add-qinq-tagging-format.patch
+123-dsa-add-ar7240-built-in-switch-support.patch
 file
 
 
 
 
 2010-11-07T22:16:35.000000Z
-70f5f9df128b8098bd88e472070eaf1e
-2010-03-01T07:34:37.123081Z
-19926
+9f3f9962212959e235f534baa5784ec8
+2010-03-01T07:34:41.093426Z
+19927
 juhosg
 
 
@@ -908,7 +874,7 @@ juhosg
 
 
 
-2385
+765
 
 004-ar71xx_spi_controller.patch
 file
@@ -943,6 +909,40 @@ juhosg
 
 
 735
+
+122-dsa-add-qinq-tagging-format.patch
+file
+
+
+
+
+2010-11-07T22:16:35.000000Z
+70f5f9df128b8098bd88e472070eaf1e
+2010-03-01T07:34:37.123081Z
+19926
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2385
 
 205-wndr3700-usb-led-driver.patch
 file

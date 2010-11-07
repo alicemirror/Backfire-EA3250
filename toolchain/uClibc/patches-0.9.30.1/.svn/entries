@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/toolchain/uClibc/patches-0.9.30.1
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ has-props
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-500-avr32_add_varargs_handling_of_prctl_syscall.patch
-file
-
-
-
-
-2010-11-07T22:16:18.000000Z
-4b90d3fcf933434f7819e10221249282
-2010-02-19T09:58:52.344462Z
-19740
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2102
 
 140-math_decl.patch
 file
@@ -94,17 +60,17 @@ nbd
 
 401
 
-300-fix-ppoll.diff
+500-avr32_add_varargs_handling_of_prctl_syscall.patch
 file
 
 
 
 
 2010-11-07T22:16:18.000000Z
-d5c76715daeee3716d5b1c3fcd94f5cf
-2009-05-29T07:40:29.935780Z
-16166
-hcg
+4b90d3fcf933434f7819e10221249282
+2010-02-19T09:58:52.344462Z
+19740
+kaloz
 
 
 
@@ -126,7 +92,41 @@ hcg
 
 
 
-968
+2102
+
+901-hi_lo_system_calls.patch
+file
+
+
+
+
+2010-11-07T22:16:18.000000Z
+7cdf192ab768378faeb4c6e39be39ede
+2009-09-26T18:08:02.274444Z
+17742
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+914
 
 900-backport_fix_possible_null_ptr_dereference_in_getaddrinfo.patch
 file
@@ -162,17 +162,17 @@ juhosg
 
 296
 
-901-hi_lo_system_calls.patch
+300-fix-ppoll.diff
 file
 
 
 
 
 2010-11-07T22:16:18.000000Z
-7cdf192ab768378faeb4c6e39be39ede
-2009-09-26T18:08:02.274444Z
-17742
-florian
+d5c76715daeee3716d5b1c3fcd94f5cf
+2009-05-29T07:40:29.935780Z
+16166
+hcg
 
 
 
@@ -194,7 +194,7 @@ florian
 
 
 
-914
+968
 
 600-ubicom32-uClibc.patch
 file
@@ -332,40 +332,6 @@ nbd
 
 220
 
-180-dl_sysdep_inline.patch
-file
-
-
-
-
-2010-11-07T22:16:18.000000Z
-ec4772c47291ae02906e75efece74d6f
-2009-06-23T13:08:21.098177Z
-16541
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13496
-
 160-unifdef_fix.patch
 file
 
@@ -399,6 +365,40 @@ florian
 
 
 1181
+
+180-dl_sysdep_inline.patch
+file
+
+
+
+
+2010-11-07T22:16:18.000000Z
+ec4772c47291ae02906e75efece74d6f
+2009-06-23T13:08:21.098177Z
+16541
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13496
 
 170-math_finite.patch
 file

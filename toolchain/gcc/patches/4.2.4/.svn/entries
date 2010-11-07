@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/toolchain/gcc/patches/4.2.4
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ nbd
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-205-uclibc-locale-update.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-e8a3573a03496e1483be0d26d8360aed
-2008-05-31T18:45:07.060817Z
-11310
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11654
 
 100-uclibc-conf.patch
 file
@@ -94,6 +60,40 @@ kaloz
 
 7043
 
+205-uclibc-locale-update.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+e8a3573a03496e1483be0d26d8360aed
+2008-05-31T18:45:07.060817Z
+11310
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11654
+
 300-libstdc++-pic.patch
 file
 
@@ -128,40 +128,6 @@ kaloz
 
 2032
 
-820-libgcc_pic.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-17594e7f51272a337c4bd4cbf5f6fc6b
-2009-10-20T06:48:29.715134Z
-18087
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2447
-
 910-soft-float.patch
 file
 
@@ -195,6 +161,40 @@ kaloz
 
 
 1299
+
+820-libgcc_pic.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+17594e7f51272a337c4bd4cbf5f6fc6b
+2009-10-20T06:48:29.715134Z
+18087
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2447
 
 920-soft-float.patch
 file
@@ -264,40 +264,6 @@ nico
 
 1839
 
-307-locale_facets.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-11be4b9bd29f3b95191ba7439198e5a1
-2008-05-31T18:45:07.060817Z
-11310
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1474
-
 901-fix_avr32_breakage.patch
 file
 
@@ -331,6 +297,40 @@ nbd
 
 
 546
+
+307-locale_facets.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+11be4b9bd29f3b95191ba7439198e5a1
+2008-05-31T18:45:07.060817Z
+11310
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1474
 
 304-index_macro.patch
 file
@@ -434,40 +434,6 @@ kaloz
 
 511
 
-900-avr32_support.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-70e8fd8d8ba29f6f1782968111b0cb13
-2009-01-14T18:33:13.273460Z
-14036
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-742807
-
 952-bug_34762.patch
 file
 
@@ -501,6 +467,40 @@ nico
 
 
 1868
+
+900-avr32_support.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+70e8fd8d8ba29f6f1782968111b0cb13
+2009-01-14T18:33:13.273460Z
+14036
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+742807
 
 203-uclibc-locale-no__x.patch
 file

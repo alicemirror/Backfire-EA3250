@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/brcm47xx/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -25,108 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-220-bcm5354.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-206ab93752e7ed3f5de88da5431ce16a
-2010-11-07T15:59:49.149135Z
-23915
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1536
-
-160-kmap_coherent.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-b983078daca55a698858fd763cf5495a
-2010-02-20T19:31:13.330657Z
-19781
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2657
-
-812-disable_wgt634u_crap.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-940147c29208998a6f52a6ec17edafb7
-2010-01-07T16:06:05.534096Z
-19062
-mb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4608
 
 813-use_netdev_alloc_skb.patch
 file
@@ -162,14 +60,14 @@ hauke
 
 332
 
-250-ohci-ssb-usb2.patch
+812-disable_wgt634u_crap.patch
 file
 
 
 
 
 2010-11-07T22:16:40.000000Z
-1856015c176847dd19cf31e0dd018c96
+940147c29208998a6f52a6ec17edafb7
 2010-01-07T16:06:05.534096Z
 19062
 mb
@@ -194,7 +92,109 @@ mb
 
 
 
-1983
+4608
+
+160-kmap_coherent.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+b983078daca55a698858fd763cf5495a
+2010-02-20T19:31:13.330657Z
+19781
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2657
+
+220-bcm5354.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+206ab93752e7ed3f5de88da5431ce16a
+2010-11-07T15:59:49.149135Z
+23915
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1536
+
+940-bcm47xx-yenta.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+21e294d9fbd9155f8002b849d8768ee3
+2010-03-26T10:45:25.169692Z
+20444
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1594
 
 601-mips-remove-pci-collision-check.patch
 file
@@ -230,17 +230,17 @@ mb
 
 611
 
-940-bcm47xx-yenta.patch
+250-ohci-ssb-usb2.patch
 file
 
 
 
 
 2010-11-07T22:16:40.000000Z
-21e294d9fbd9155f8002b849d8768ee3
-2010-03-26T10:45:25.169692Z
-20444
-juhosg
+1856015c176847dd19cf31e0dd018c96
+2010-01-07T16:06:05.534096Z
+19062
+mb
 
 
 
@@ -262,7 +262,7 @@ juhosg
 
 
 
-1594
+1983
 
 300-fork_cacheflush.patch
 file

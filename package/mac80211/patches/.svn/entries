@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/mac80211/patches
 svn://svn.openwrt.org/openwrt
 
@@ -570,14 +570,14 @@ nbd
 
 3899
 
-530-ath9k_locking_fix.patch
+810-b43_no_pio.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-08ef120a7c6edf243b0c44d8f1530042
+31ea9d4d9d935972bbc18942094ffee6
 2010-10-31T12:47:07.311812Z
 23733
 nbd
@@ -602,7 +602,7 @@ nbd
 
 
 
-9954
+1939
 
 570-ath9k_reset_aggr_fix.patch
 file
@@ -638,14 +638,14 @@ nbd
 
 1143
 
-810-b43_no_pio.patch
+530-ath9k_locking_fix.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-31ea9d4d9d935972bbc18942094ffee6
+08ef120a7c6edf243b0c44d8f1530042
 2010-10-31T12:47:07.311812Z
 23733
 nbd
@@ -670,7 +670,7 @@ nbd
 
 
 
-1939
+9954
 
 002-disable_rfkill.patch
 file
@@ -740,16 +740,16 @@ nbd
 
 21535
 
-451-add-platform-eeprom-support-to-ath5k.patch
+591-ath9k_swba_intr_fix.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-00620d6403d7f35c7e12639fe57d3dd3
-2010-09-21T11:50:40.742260Z
-23107
+088ec65b542c740aaf55a01d43fab526
+2010-11-04T17:10:59.645334Z
+23871
 nbd
 
 
@@ -772,109 +772,7 @@ nbd
 
 
 
-1441
-
-007-remove_misc_drivers.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-ab14dac9b5a23c266e26b2f6b921a826
-2010-10-31T12:47:07.311812Z
-23733
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1520
-
-013-disable_b43_nphy.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-1e0fca228a49ea5e3d1ac0d7a3d56401
-2010-10-31T12:47:07.311812Z
-23733
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-235
-
-521-ath9k_hw_tx_power.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-10347c935107897d1561d69651686603
-2010-10-31T12:47:07.311812Z
-23733
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10728
+757
 
 550-ath9k_xretry_fix.patch
 file
@@ -910,48 +808,14 @@ nbd
 
 887
 
-591-ath9k_swba_intr_fix.patch
+521-ath9k_hw_tx_power.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-088ec65b542c740aaf55a01d43fab526
-2010-11-04T17:10:59.645334Z
-23871
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-757
-
-520-ath9k_ar9003_regulatory_power.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-d7e9b0b95d73c6dde70be1fb6b84df6d
+10347c935107897d1561d69651686603
 2010-10-31T12:47:07.311812Z
 23733
 nbd
@@ -976,7 +840,109 @@ nbd
 
 
 
-654
+10728
+
+013-disable_b43_nphy.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+1e0fca228a49ea5e3d1ac0d7a3d56401
+2010-10-31T12:47:07.311812Z
+23733
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+235
+
+007-remove_misc_drivers.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+ab14dac9b5a23c266e26b2f6b921a826
+2010-10-31T12:47:07.311812Z
+23733
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1520
+
+451-add-platform-eeprom-support-to-ath5k.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+00620d6403d7f35c7e12639fe57d3dd3
+2010-09-21T11:50:40.742260Z
+23107
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1441
 
 800-b43-gpio-mask-module-option.patch
 file
@@ -1012,14 +978,14 @@ nbd
 
 1795
 
-408-ath9k_tweak_rx_intr_mitigation.patch
+520-ath9k_ar9003_regulatory_power.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-347bc7d60b908b8c75624efd2bcbae29
+d7e9b0b95d73c6dde70be1fb6b84df6d
 2010-10-31T12:47:07.311812Z
 23733
 nbd
@@ -1044,7 +1010,7 @@ nbd
 
 
 
-386
+654
 
 008-led_default.patch
 file
@@ -1079,6 +1045,40 @@ nbd
 
 
 3011
+
+408-ath9k_tweak_rx_intr_mitigation.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+347bc7d60b908b8c75624efd2bcbae29
+2010-10-31T12:47:07.311812Z
+23733
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+386
 
 410-ath9k-wndr3700-led-pin-fix.patch
 file

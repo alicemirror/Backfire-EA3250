@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/base-files/files/etc
 svn://svn.openwrt.org/openwrt
 
@@ -131,40 +131,6 @@ has-props
 init.d
 dir
 
-inittab
-file
-
-
-
-
-2010-11-07T22:16:44.000000Z
-b32300b974fdaf89bf58c80a144d6d3a
-2009-04-17T14:32:29.989894Z
-15245
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-165
-
 shells
 file
 
@@ -198,6 +164,40 @@ has-props
 
 
 9
+
+inittab
+file
+
+
+
+
+2010-11-07T22:16:44.000000Z
+b32300b974fdaf89bf58c80a144d6d3a
+2009-04-17T14:32:29.989894Z
+15245
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+165
 
 rc.common
 file
@@ -301,40 +301,6 @@ jow
 
 132
 
-openwrt_release
-file
-
-
-
-
-2010-11-07T22:16:44.000000Z
-c739dea383b1fa88533bcfb426d4d7d2
-2010-04-03T00:49:01.512532Z
-20659
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-118
-
 hotplug2-init.rules
 file
 
@@ -369,18 +335,17 @@ hcg
 
 80
 
-profile
+openwrt_release
 file
 
 
 
 
 2010-11-07T22:16:44.000000Z
-f6394146d2f7dd077ea65916f2854948
-2009-04-17T14:32:29.989894Z
-15245
+c739dea383b1fa88533bcfb426d4d7d2
+2010-04-03T00:49:01.512532Z
+20659
 nico
-has-props
 
 
 
@@ -401,7 +366,8 @@ has-props
 
 
 
-473
+
+118
 
 hosts
 file
@@ -436,6 +402,40 @@ has-props
 
 
 21
+
+profile
+file
+
+
+
+
+2010-11-07T22:16:44.000000Z
+f6394146d2f7dd077ea65916f2854948
+2009-04-17T14:32:29.989894Z
+15245
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+473
 
 passwd
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/base-files/files/lib/preinit
 svn://svn.openwrt.org/openwrt
 
@@ -128,40 +128,6 @@ nbd
 
 258
 
-99_10_failsafe_login
-file
-
-
-
-
-2010-11-07T22:16:44.000000Z
-70069fee1421e423b4b1b32fe8d41275
-2010-01-25T17:11:17.955488Z
-19331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-380
-
 99_10_mount_no_mtd
 file
 
@@ -195,6 +161,40 @@ nbd
 
 
 207
+
+99_10_failsafe_login
+file
+
+
+
+
+2010-11-07T22:16:44.000000Z
+70069fee1421e423b4b1b32fe8d41275
+2010-01-25T17:11:17.955488Z
+19331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+380
 
 10_check_for_mtd
 file
@@ -264,40 +264,6 @@ nbd
 
 301
 
-20_check_jffs2_ready
-file
-
-
-
-
-2010-11-07T22:16:44.000000Z
-64b8f9758cf25e80af122a3e458ba2ce
-2010-01-25T17:11:17.955488Z
-19331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-344
-
 05_mount_skip
 file
 
@@ -331,6 +297,40 @@ nbd
 
 
 193
+
+20_check_jffs2_ready
+file
+
+
+
+
+2010-11-07T22:16:44.000000Z
+64b8f9758cf25e80af122a3e458ba2ce
+2010-01-25T17:11:17.955488Z
+19331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+344
 
 90_init_console
 file
@@ -366,17 +366,17 @@ nbd
 
 265
 
-50_indicate_regular_preinit
+30_device_fs_daemons
 file
 
 
 
 
 2010-11-07T22:16:44.000000Z
-a3ddeb98a9e57373d3245e3063955830
-2010-01-25T17:11:17.955488Z
-19331
-nbd
+1ed194d0d5e0bef83c47d7eee3e006e7
+2010-02-01T00:32:46.122103Z
+19478
+jow
 
 
 
@@ -398,7 +398,7 @@ nbd
 
 
 
-282
+1027
 
 40_mount_jffs2
 file
@@ -434,17 +434,17 @@ jow
 
 495
 
-30_device_fs_daemons
+50_indicate_regular_preinit
 file
 
 
 
 
 2010-11-07T22:16:44.000000Z
-1ed194d0d5e0bef83c47d7eee3e006e7
-2010-02-01T00:32:46.122103Z
-19478
-jow
+a3ddeb98a9e57373d3245e3063955830
+2010-01-25T17:11:17.955488Z
+19331
+nbd
 
 
 
@@ -466,41 +466,7 @@ jow
 
 
 
-1027
-
-30_failsafe_wait
-file
-
-
-
-
-2010-11-07T22:16:44.000000Z
-e2bf91615ad12f7714a0f7d059aac786
-2010-03-23T22:56:12.463228Z
-20392
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2084
+282
 
 90_mount_no_jffs2
 file
@@ -535,6 +501,40 @@ nbd
 
 
 240
+
+30_failsafe_wait
+file
+
+
+
+
+2010-11-07T22:16:44.000000Z
+e2bf91615ad12f7714a0f7d059aac786
+2010-03-23T22:56:12.463228Z
+20392
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2084
 
 70_initramfs_test
 file

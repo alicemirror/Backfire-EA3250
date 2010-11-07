@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/adm5120/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -60,14 +60,14 @@ juhosg
 
 303
 
-200-amba_pl010_hacks.patch
+005-adm5120_usb.patch
 file
 
 
 
 
 2010-11-07T22:16:38.000000Z
-f255d633b915c8c58d8e5fea82d18047
+2137b79f53336eca814efa1da146ccfb
 2010-01-02T15:52:34.794169Z
 19005
 juhosg
@@ -92,7 +92,7 @@ juhosg
 
 
 
-12967
+996
 
 102-jedec_pmc_39lvxxx_chips.patch
 file
@@ -128,14 +128,14 @@ juhosg
 
 1690
 
-005-adm5120_usb.patch
+200-amba_pl010_hacks.patch
 file
 
 
 
 
 2010-11-07T22:16:38.000000Z
-2137b79f53336eca814efa1da146ccfb
+f255d633b915c8c58d8e5fea82d18047
 2010-01-02T15:52:34.794169Z
 19005
 juhosg
@@ -160,7 +160,7 @@ juhosg
 
 
 
-996
+12967
 
 002-adm5120_flash.patch
 file
@@ -230,40 +230,6 @@ juhosg
 
 1046
 
-009-adm5120_leds_switch_trigger.patch
-file
-
-
-
-
-2010-11-07T22:16:38.000000Z
-2868689bdb747c7c192571aaf7264c5a
-2010-01-02T15:52:34.794169Z
-19005
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-830
-
 003-adm5120_switch.patch
 file
 
@@ -297,6 +263,40 @@ juhosg
 
 
 713
+
+009-adm5120_leds_switch_trigger.patch
+file
+
+
+
+
+2010-11-07T22:16:38.000000Z
+2868689bdb747c7c192571aaf7264c5a
+2010-01-02T15:52:34.794169Z
+19005
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+830
 
 903-adm5120-usb-use-the-admhcd-structure-directly-in-debugfs-files.patch
 file

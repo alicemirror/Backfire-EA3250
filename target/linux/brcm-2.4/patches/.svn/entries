@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/brcm-2.4/patches
 svn://svn.openwrt.org/openwrt
 
@@ -400,40 +400,6 @@ has-props
 
 2493
 
-011-wl_qdisc_war.patch
-file
-
-
-
-
-2010-11-07T22:16:32.000000Z
-e5008ccdd245f3f53d574ad6c96948dc
-2009-05-28T15:55:54.379617Z
-16144
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-426
-
 003-bcm47xx_cache_fixes.patch
 file
 
@@ -467,6 +433,40 @@ has-props
 
 
 14304
+
+011-wl_qdisc_war.patch
+file
+
+
+
+
+2010-11-07T22:16:32.000000Z
+e5008ccdd245f3f53d574ad6c96948dc
+2009-05-28T15:55:54.379617Z
+16144
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+426
 
 005-bluetooth_sco_buffer_align.patch
 file

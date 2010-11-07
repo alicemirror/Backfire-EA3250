@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/ifxmips/patches-2.6.30
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ blogic
 
 1321
 
-500-arv452.patch
-file
-
-
-
-
-2010-11-07T22:16:31.000000Z
-38f90b169d8c03f97e38c1d7bca21e1b
-2010-03-24T16:19:17.114655Z
-20403
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2369
-
 100-board.patch
 file
 
@@ -127,6 +93,40 @@ blogic
 
 
 2214
+
+500-arv452.patch
+file
+
+
+
+
+2010-11-07T22:16:31.000000Z
+38f90b169d8c03f97e38c1d7bca21e1b
+2010-03-24T16:19:17.114655Z
+20403
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2369
 
 140-mtd.patch
 file
@@ -264,40 +264,6 @@ blogic
 
 6148
 
-400-atm_hack.patch
-file
-
-
-
-
-2010-11-07T22:16:31.000000Z
-25d9f9a5badd2663c5e11479afbcc549
-2009-11-01T18:52:35.229992Z
-18259
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1943
-
 160-led.patch
 file
 
@@ -332,16 +298,16 @@ blogic
 
 6923
 
-600-ebu-gpio.patch
+400-atm_hack.patch
 file
 
 
 
 
 2010-11-07T22:16:31.000000Z
-5c6b55c12fb5091c06eb2b60be9b41d5
-2010-03-25T11:50:46.188801Z
-20418
+25d9f9a5badd2663c5e11479afbcc549
+2009-11-01T18:52:35.229992Z
+18259
 blogic
 
 
@@ -364,41 +330,7 @@ blogic
 
 
 
-6427
-
-300-cfi0001-swap.patch
-file
-
-
-
-
-2010-11-07T22:16:31.000000Z
-07d08c5cf07b9e7ac981afe6ea855d06
-2010-03-16T17:49:42.942826Z
-20246
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-640
+1943
 
 110-pci.patch
 file
@@ -434,6 +366,74 @@ blogic
 
 514
 
+300-cfi0001-swap.patch
+file
+
+
+
+
+2010-11-07T22:16:31.000000Z
+07d08c5cf07b9e7ac981afe6ea855d06
+2010-03-16T17:49:42.942826Z
+20246
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+640
+
+600-ebu-gpio.patch
+file
+
+
+
+
+2010-11-07T22:16:31.000000Z
+5c6b55c12fb5091c06eb2b60be9b41d5
+2010-03-25T11:50:46.188801Z
+20418
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6427
+
 310-cfi0002-swap.patch
 file
 
@@ -468,40 +468,6 @@ has-props
 
 510
 
-130-ethernet.patch
-file
-
-
-
-
-2010-11-07T22:16:31.000000Z
-bddaabea1e34f20e56e4b5ef9ef8a31b
-2010-03-24T15:53:05.853118Z
-20400
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15076
-
 120-serial.patch
 file
 
@@ -535,4 +501,38 @@ blogic
 
 
 17753
+
+130-ethernet.patch
+file
+
+
+
+
+2010-11-07T22:16:31.000000Z
+bddaabea1e34f20e56e4b5ef9ef8a31b
+2010-03-24T15:53:05.853118Z
+20400
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15076
 

@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/ep80579-drivers/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,74 +25,6 @@ kaloz
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-210-can_include_linux_fs_h.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-e9222415af4999267d302cf190d694ef
-2010-04-01T12:05:27.399177Z
-20648
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-263
-
-106-iegbe_new_irqf_constant.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-a0aed6adb700a205511dd3ebdd70a956
-2010-04-01T12:05:27.399177Z
-20648
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-521
 
 601-2.6.32_includes.patch
 file
@@ -128,6 +60,74 @@ kaloz
 
 1173
 
+106-iegbe_new_irqf_constant.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+a0aed6adb700a205511dd3ebdd70a956
+2010-04-01T12:05:27.399177Z
+20648
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+521
+
+210-can_include_linux_fs_h.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+e9222415af4999267d302cf190d694ef
+2010-04-01T12:05:27.399177Z
+20648
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+263
+
 150-ocracoke_island.patch
 file
 
@@ -162,14 +162,14 @@ kaloz
 
 21133
 
-400-edma_fix_irq_request_warning.patch
+600-2.6.27_includes.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-9a370d81b5633ccc5834a8c0b25efe5e
+ae63a5800f0d6497320b0c3b0d7ef0fc
 2010-04-01T12:05:27.399177Z
 20648
 kaloz
@@ -194,7 +194,7 @@ kaloz
 
 
 
-874
+688
 
 500-1588_fix_irq_request_warning.patch
 file
@@ -230,14 +230,14 @@ kaloz
 
 975
 
-600-2.6.27_includes.patch
+400-edma_fix_irq_request_warning.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-ae63a5800f0d6497320b0c3b0d7ef0fc
+9a370d81b5633ccc5834a8c0b25efe5e
 2010-04-01T12:05:27.399177Z
 20648
 kaloz
@@ -262,7 +262,7 @@ kaloz
 
 
 
-688
+874
 
 102-iegbe_nuke_polling_netdev.patch
 file
@@ -332,40 +332,6 @@ kaloz
 
 1621
 
-220-can_fix_irq_request.patch
-file
-
-
-
-
-2010-11-07T22:16:47.000000Z
-68917abad67a906ff07264af76a5ee9d
-2010-04-01T12:05:27.399177Z
-20648
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-788
-
 200-can_fix_ioctl_numbers.patch
 file
 
@@ -400,14 +366,14 @@ kaloz
 
 370
 
-230-can_remove_driver_data_direct_access.patch
+220-can_fix_irq_request.patch
 file
 
 
 
 
 2010-11-07T22:16:47.000000Z
-8f40635a53b4ae30864ae88a00cfe8cc
+68917abad67a906ff07264af76a5ee9d
 2010-04-01T12:05:27.399177Z
 20648
 kaloz
@@ -432,7 +398,7 @@ kaloz
 
 
 
-1450
+788
 
 100-iegbe_netdev_ops.patch
 file
@@ -467,6 +433,40 @@ kaloz
 
 
 1886
+
+230-can_remove_driver_data_direct_access.patch
+file
+
+
+
+
+2010-11-07T22:16:47.000000Z
+8f40635a53b4ae30864ae88a00cfe8cc
+2010-04-01T12:05:27.399177Z
+20648
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1450
 
 104-iegbe_group_address_list_and_its_count.patch
 file

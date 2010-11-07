@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/brcm63xx/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -94,40 +94,6 @@ florian
 
 3745
 
-012-mips_add_readl_writel_be_accessors.patch
-file
-
-
-
-
-2010-11-07T22:16:38.000000Z
-b1e68d5aa51ecc58d729b20ebcbe336a
-2010-03-14T16:21:28.847712Z
-20204
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-670
-
 180-udc_preliminary_support.patch
 file
 
@@ -162,14 +128,14 @@ florian
 
 7873
 
-110-gpiodev.patch
+012-mips_add_readl_writel_be_accessors.patch
 file
 
 
 
 
 2010-11-07T22:16:38.000000Z
-a85a986ba266906e8f4270d5ef6ab472
+b1e68d5aa51ecc58d729b20ebcbe336a
 2010-03-14T16:21:28.847712Z
 20204
 florian
@@ -194,7 +160,7 @@ florian
 
 
 
-628
+670
 
 011-add_bcm63xx_ehci_controller.patch
 file
@@ -229,6 +195,40 @@ florian
 
 
 4678
+
+110-gpiodev.patch
+file
+
+
+
+
+2010-11-07T22:16:38.000000Z
+a85a986ba266906e8f4270d5ef6ab472
+2010-03-14T16:21:28.847712Z
+20204
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+628
 
 210-init_gpio_out_low_high_current_value_at_boot.patch
 file
@@ -298,14 +298,14 @@ florian
 
 2078
 
-140-new_bcm96348gw_leds.patch
+020-watchdog.patch
 file
 
 
 
 
 2010-11-07T22:16:38.000000Z
-cafb66370dc99fe6b7e4359f383c660d
+62fe12848d3988ac837288b8cc14b19a
 2010-03-14T16:21:28.847712Z
 20204
 florian
@@ -330,7 +330,7 @@ florian
 
 
 
-1874
+8675
 
 040-bcm963xx_flashmap.patch
 file
@@ -366,14 +366,14 @@ florian
 
 11753
 
-020-watchdog.patch
+140-new_bcm96348gw_leds.patch
 file
 
 
 
 
 2010-11-07T22:16:38.000000Z
-62fe12848d3988ac837288b8cc14b19a
+cafb66370dc99fe6b7e4359f383c660d
 2010-03-14T16:21:28.847712Z
 20204
 florian
@@ -398,7 +398,7 @@ florian
 
 
 
-8675
+1874
 
 120-board_rta1025w_16.patch
 file

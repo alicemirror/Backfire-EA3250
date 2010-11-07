@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/generic-2.6/patches-2.6.30
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ has-props
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-750-glamo-headers.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-6c55de67e43475058db1cf5e907c1218
-2009-07-20T10:59:21.238215Z
-16934
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-847
 
 970-ocf_kbuild_integration.patch
 file
@@ -94,17 +60,17 @@ kaloz
 
 534
 
-203-slab_maxsize.patch
+750-glamo-headers.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-d0cb7eddeabc7ebe53f2d6952a8a4901
-2009-04-18T17:04:16.415645Z
-15251
-nbd
+6c55de67e43475058db1cf5e907c1218
+2009-07-20T10:59:21.238215Z
+16934
+juhosg
 
 
 
@@ -126,7 +92,7 @@ nbd
 
 
 
-562
+847
 
 998-openwrt_lzma_options.patch
 file
@@ -161,6 +127,40 @@ juhosg
 
 
 1830
+
+203-slab_maxsize.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+d0cb7eddeabc7ebe53f2d6952a8a4901
+2009-04-18T17:04:16.415645Z
+15251
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+562
 
 840-unable_to_open_console.patch
 file
@@ -230,40 +230,6 @@ nbd
 
 1339
 
-080-mtd_plat_nand_chip_fixup.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-b23e4b736a5e15e7c95730cc01e883ee
-2009-04-28T13:35:14.933587Z
-15468
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-758
-
 650-swconfig.patch
 file
 
@@ -298,17 +264,17 @@ nbd
 
 674
 
-220-sound_kconfig.patch
+080-mtd_plat_nand_chip_fixup.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-98bb580342da5b3106494678c77ef752
-2009-04-18T17:04:16.415645Z
-15251
-nbd
+b23e4b736a5e15e7c95730cc01e883ee
+2009-04-28T13:35:14.933587Z
+15468
+kaloz
 
 
 
@@ -330,7 +296,7 @@ nbd
 
 
 
-200
+758
 
 012-extra_optimization.patch
 file
@@ -366,6 +332,40 @@ kaloz
 
 592
 
+220-sound_kconfig.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+98bb580342da5b3106494678c77ef752
+2009-04-18T17:04:16.415645Z
+15251
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+200
+
 002-squashfs_factor_out_remaining_zlib.patch
 file
 
@@ -400,40 +400,6 @@ kaloz
 
 8506
 
-215-mini_fo_2.6.30.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-a223121320f77f1eaf354e62bdcb97f4
-2009-06-05T15:24:59.725607Z
-16346
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5407
-
 021-mips_image_cmdline_hack.patch
 file
 
@@ -467,6 +433,40 @@ juhosg
 
 
 575
+
+215-mini_fo_2.6.30.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+a223121320f77f1eaf354e62bdcb97f4
+2009-06-05T15:24:59.725607Z
+16346
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5407
 
 110-netfilter_match_speedup.patch
 file
@@ -1148,40 +1148,6 @@ nbd
 
 775
 
-013-gcc4_inline_fix.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-75db26fe6b29b0c7f9ecf2eba83c22b7
-2009-10-26T10:15:52.834811Z
-18161
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-448
-
 903-stddef_include.patch
 file
 
@@ -1215,6 +1181,40 @@ nbd
 
 
 322
+
+013-gcc4_inline_fix.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+75db26fe6b29b0c7f9ecf2eba83c22b7
+2009-10-26T10:15:52.834811Z
+18161
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+448
 
 923-gpiommc-configfs-locking.patch
 file
@@ -1250,40 +1250,6 @@ nbd
 
 1388
 
-001-squashfs_move_zlib_decomp.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-e77ed65ba0acd78a8ab0eb13b699bac9
-2009-11-02T09:51:35.643470Z
-18267
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6632
-
 965-arm_restore_sigmask_v2.patch
 file
 
@@ -1317,6 +1283,40 @@ juhosg
 
 
 11669
+
+001-squashfs_move_zlib_decomp.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+e77ed65ba0acd78a8ab0eb13b699bac9
+2009-11-02T09:51:35.643470Z
+18267
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6632
 
 024-mips_delay.patch
 file
@@ -1386,40 +1386,6 @@ nbd
 
 356
 
-212-mini_fo_2.6.26_fixes.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-cd4d9352902d6e48c0e187f3ee5e73a9
-2009-04-18T17:04:16.415645Z
-15251
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1337
-
 940-wireless_mesh_header.patch
 file
 
@@ -1454,16 +1420,16 @@ hauke
 
 631
 
-260-extend_pfifo_fast.patch
+212-mini_fo_2.6.26_fixes.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-b884828c570908233640163c84038a42
-2009-07-18T20:31:21.628450Z
-16903
+cd4d9352902d6e48c0e187f3ee5e73a9
+2009-04-18T17:04:16.415645Z
+15251
 nbd
 
 
@@ -1486,7 +1452,7 @@ nbd
 
 
 
-4009
+1337
 
 976-ssb_increase_pci_delay.patch
 file
@@ -1522,6 +1488,40 @@ jow
 
 421
 
+260-extend_pfifo_fast.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+b884828c570908233640163c84038a42
+2009-07-18T20:31:21.628450Z
+16903
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4009
+
 920-04-spi-gpio-implement-spi-delay.patch
 file
 
@@ -1556,17 +1556,17 @@ nbd
 
 1786
 
-065-rootfs_split.patch
+975-hifn795x-byteswap.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-1782d74e3e95d77e267aa29b1114b1bb
-2010-02-18T21:34:49.393314Z
-19709
-nbd
+723f63b588c4efe08438f3abad2f90e0
+2010-05-03T20:33:23.255292Z
+21345
+jow
 
 
 
@@ -1588,7 +1588,7 @@ nbd
 
 
 
-16034
+539
 
 600-phy_extension.patch
 file
@@ -1624,17 +1624,17 @@ kaloz
 
 2298
 
-975-hifn795x-byteswap.patch
+065-rootfs_split.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-723f63b588c4efe08438f3abad2f90e0
-2010-05-03T20:33:23.255292Z
-21345
-jow
+1782d74e3e95d77e267aa29b1114b1bb
+2010-02-18T21:34:49.393314Z
+19709
+nbd
 
 
 
@@ -1656,7 +1656,7 @@ jow
 
 
 
-539
+16034
 
 400-ledtrig_morse.patch
 file
@@ -1726,40 +1726,6 @@ nbd
 
 4439
 
-951-revert_gcc4_4_fixes.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-b8533830141732215dc67a3517089397
-2009-05-09T06:05:15.537573Z
-15736
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14341
-
 990-fix_feroceon_vfp_handling.patch
 file
 
@@ -1793,6 +1759,40 @@ kaloz
 
 
 2561
+
+951-revert_gcc4_4_fixes.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+b8533830141732215dc67a3517089397
+2009-05-09T06:05:15.537573Z
+15736
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14341
 
 150-netfilter_imq.patch
 file
@@ -1862,40 +1862,6 @@ florian
 
 2640
 
-060-block2mtd_init.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-a756d43edbff154198a1d94cc5a0433d
-2009-04-18T17:04:16.415645Z
-15251
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3335
-
 510-yaffs_support.patch
 file
 
@@ -1929,6 +1895,40 @@ kaloz
 
 
 507
+
+060-block2mtd_init.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+a756d43edbff154198a1d94cc5a0433d
+2009-04-18T17:04:16.415645Z
+15251
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3335
 
 089-mtd-samsung-flash.patch
 file
@@ -1998,40 +1998,6 @@ nbd
 
 1798
 
-026-mips_fix_loading_of_modules_with_unresolved_weak_sy.patch
-file
-
-
-
-
-2010-11-07T22:16:29.000000Z
-532660930d847b3a4e55e1483b140673
-2009-07-13T09:34:49.128064Z
-16823
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1556
-
 971-ocf_20080917.patch
 file
 
@@ -2066,17 +2032,17 @@ kaloz
 
 4801
 
-201-jhash3.patch
+026-mips_fix_loading_of_modules_with_unresolved_weak_sy.patch
 file
 
 
 
 
 2010-11-07T22:16:29.000000Z
-9fa9fcc9fc0b24ea44f0677c2775e08b
-2009-04-18T17:04:16.415645Z
-15251
-nbd
+532660930d847b3a4e55e1483b140673
+2009-07-13T09:34:49.128064Z
+16823
+juhosg
 
 
 
@@ -2098,7 +2064,7 @@ nbd
 
 
 
-6331
+1556
 
 630-phy_packets.patch
 file
@@ -2133,6 +2099,40 @@ kaloz
 
 
 1876
+
+201-jhash3.patch
+file
+
+
+
+
+2010-11-07T22:16:29.000000Z
+9fa9fcc9fc0b24ea44f0677c2775e08b
+2009-04-18T17:04:16.415645Z
+15251
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6331
 
 924-cs5535_gpio.patch
 file

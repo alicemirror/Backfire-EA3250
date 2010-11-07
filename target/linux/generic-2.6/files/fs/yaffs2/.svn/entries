@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/generic-2.6/files/fs/yaffs2
 svn://svn.openwrt.org/openwrt
 
@@ -536,40 +536,6 @@ has-props
 
 620
 
-yaffs_qsort.c
-file
-
-
-
-
-2010-11-07T22:16:27.000000Z
-9bbbccc8badeccc3ada4c7a79d3ecb00
-2008-10-22T06:51:06.460400Z
-13022
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4633
-
 yaffs_fs.c
 file
 
@@ -603,6 +569,40 @@ has-props
 
 
 57566
+
+yaffs_qsort.c
+file
+
+
+
+
+2010-11-07T22:16:27.000000Z
+9bbbccc8badeccc3ada4c7a79d3ecb00
+2008-10-22T06:51:06.460400Z
+13022
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4633
 
 yaffs_qsort.h
 file
@@ -740,40 +740,6 @@ has-props
 
 10876
 
-yaffs_nand.h
-file
-
-
-
-
-2010-11-07T22:16:27.000000Z
-6b901f7b854e8f91cf78380d0511782a
-2008-10-22T06:51:06.460400Z
-13022
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1222
-
 yaffs_mtdif2.c
 file
 
@@ -807,6 +773,40 @@ has-props
 
 
 5572
+
+yaffs_nand.h
+file
+
+
+
+
+2010-11-07T22:16:27.000000Z
+6b901f7b854e8f91cf78380d0511782a
+2008-10-22T06:51:06.460400Z
+13022
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1222
 
 yaffs_guts.h
 file
@@ -910,40 +910,6 @@ has-props
 
 967
 
-yaffs_mtdif2.h
-file
-
-
-
-
-2010-11-07T22:16:27.000000Z
-4e3912460a56c9b6cd36de441e8726f7
-2008-10-22T06:51:06.460400Z
-13022
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1080
-
 yaffs_checkptrw.c
 file
 
@@ -977,6 +943,40 @@ has-props
 
 
 10444
+
+yaffs_mtdif2.h
+file
+
+
+
+
+2010-11-07T22:16:27.000000Z
+4e3912460a56c9b6cd36de441e8726f7
+2008-10-22T06:51:06.460400Z
+13022
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1080
 
 yaffs_checkptrw.h
 file

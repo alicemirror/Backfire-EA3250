@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/octeon/patches-2.6.30
 svn://svn.openwrt.org/openwrt
 
@@ -128,14 +128,14 @@ florian
 
 2510
 
-008-more_board_types_constraints.patch
+001-handle_removal_h_constraint.patch
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-71de5c07fcff292bc0813d4104424169
+9dc1cb53b1bfed323de9255c537c52b9
 2010-02-04T10:10:45.277563Z
 19513
 florian
@@ -160,41 +160,7 @@ florian
 
 
 
-1394
-
-006-octeon_mgmt_driver.patch
-file
-
-
-
-
-2010-11-07T22:16:34.000000Z
-4e68ae6a73439481194ec8c48f1a11b5
-2010-02-04T10:10:45.277563Z
-19513
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-57695
+697
 
 003_pci_pcie_support.patch
 file
@@ -230,14 +196,14 @@ florian
 
 155294
 
-001-handle_removal_h_constraint.patch
+006-octeon_mgmt_driver.patch
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-9dc1cb53b1bfed323de9255c537c52b9
+4e68ae6a73439481194ec8c48f1a11b5
 2010-02-04T10:10:45.277563Z
 19513
 florian
@@ -262,7 +228,41 @@ florian
 
 
 
-697
+57695
+
+008-more_board_types_constraints.patch
+file
+
+
+
+
+2010-11-07T22:16:34.000000Z
+71de5c07fcff292bc0813d4104424169
+2010-02-04T10:10:45.277563Z
+19513
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1394
 
 017-platform_devices.patch
 file
@@ -298,40 +298,6 @@ florian
 
 10225
 
-007-export_cvmx_sysinfo.patch
-file
-
-
-
-
-2010-11-07T22:16:34.000000Z
-b14f0d418e5d812ef68a04dd59a8d206
-2010-02-04T10:10:45.277563Z
-19513
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-700
-
 018-dwc_otg.patch
 file
 
@@ -366,14 +332,14 @@ florian
 
 539402
 
-016-octeon_hw_rng.patch
+007-export_cvmx_sysinfo.patch
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-27423b8e3ed4bfe26b3dfaaa954214f2
+b14f0d418e5d812ef68a04dd59a8d206
 2010-02-04T10:10:45.277563Z
 19513
 florian
@@ -398,7 +364,7 @@ florian
 
 
 
-10290
+700
 
 011-octeon_ethernet_driver.patch
 file
@@ -433,6 +399,40 @@ florian
 
 
 842211
+
+016-octeon_hw_rng.patch
+file
+
+
+
+
+2010-11-07T22:16:34.000000Z
+27423b8e3ed4bfe26b3dfaaa954214f2
+2010-02-04T10:10:45.277563Z
+19513
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10290
 
 105-nb5_fixup.patch
 file

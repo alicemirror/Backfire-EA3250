@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/ar7/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -332,40 +332,6 @@ has-props
 
 1319
 
-970-remove_fixed_phy.patch
-file
-
-
-
-
-2010-11-07T22:16:34.000000Z
-8080d5c055cffea2485f9bdf8846399e
-2010-08-23T08:45:36.851636Z
-22778
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2658
-
 170-clocks_init_earlier.patch
 file
 
@@ -400,17 +366,18 @@ has-props
 
 1253
 
-940-cpmac-titan.patch
+970-remove_fixed_phy.patch
 file
 
 
 
 
 2010-11-07T22:16:34.000000Z
-6cf257b2ad42c8e21fe12ba93679546f
-2010-03-26T10:45:25.169692Z
-20444
-juhosg
+8080d5c055cffea2485f9bdf8846399e
+2010-08-23T08:45:36.851636Z
+22778
+florian
+has-props
 
 
 
@@ -431,8 +398,7 @@ juhosg
 
 
 
-
-3489
+2658
 
 930-titan-platform.patch
 file
@@ -467,6 +433,40 @@ florian
 
 
 20020
+
+940-cpmac-titan.patch
+file
+
+
+
+
+2010-11-07T22:16:34.000000Z
+6cf257b2ad42c8e21fe12ba93679546f
+2010-03-26T10:45:25.169692Z
+20444
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3489
 
 500-serial_kludge.patch
 file

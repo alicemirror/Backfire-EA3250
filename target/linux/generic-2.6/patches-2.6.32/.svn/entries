@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/generic-2.6/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-750-glamo-headers.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-c47e7ab59940862d5c7bf3062e104959
-2009-08-22T12:46:12.613130Z
-17351
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-847
 
 970-ocf_kbuild_integration.patch
 file
@@ -94,14 +60,14 @@ florian
 
 540
 
-203-slab_maxsize.patch
+750-glamo-headers.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-43f75c9a96554481d583acc12cd3186a
+c47e7ab59940862d5c7bf3062e104959
 2009-08-22T12:46:12.613130Z
 17351
 mirko
@@ -126,7 +92,7 @@ mirko
 
 
 
-562
+847
 
 998-openwrt_lzma_options.patch
 file
@@ -161,6 +127,40 @@ juhosg
 
 
 1930
+
+203-slab_maxsize.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+43f75c9a96554481d583acc12cd3186a
+2009-08-22T12:46:12.613130Z
+17351
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+562
 
 840-unable_to_open_console.patch
 file
@@ -230,40 +230,6 @@ nbd
 
 1339
 
-080-mtd_plat_nand_chip_fixup.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-8a3564467203342e41ebfe8f26410941
-2009-11-03T10:49:27.310927Z
-18283
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-797
-
 650-swconfig.patch
 file
 
@@ -298,14 +264,14 @@ mirko
 
 674
 
-012-extra_optimization.patch
+080-mtd_plat_nand_chip_fixup.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-1e27871fc082347e762b239205519c75
+8a3564467203342e41ebfe8f26410941
 2009-11-03T10:49:27.310927Z
 18283
 kaloz
@@ -330,7 +296,7 @@ kaloz
 
 
 
-592
+797
 
 220-sound_kconfig.patch
 file
@@ -366,6 +332,40 @@ mirko
 
 200
 
+012-extra_optimization.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+1e27871fc082347e762b239205519c75
+2009-11-03T10:49:27.310927Z
+18283
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+592
+
 002-squashfs_factor_out_remaining_zlib.patch
 file
 
@@ -400,40 +400,6 @@ kaloz
 
 8506
 
-215-mini_fo_2.6.30.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-a223121320f77f1eaf354e62bdcb97f4
-2009-08-22T12:46:12.613130Z
-17351
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5407
-
 021-mips_image_cmdline_hack.patch
 file
 
@@ -467,6 +433,40 @@ juhosg
 
 
 575
+
+215-mini_fo_2.6.30.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+a223121320f77f1eaf354e62bdcb97f4
+2009-08-22T12:46:12.613130Z
+17351
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5407
 
 110-netfilter_match_speedup.patch
 file
@@ -1114,40 +1114,6 @@ mirko
 
 256
 
-207-powerpc_asm_segment_h.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-24dc5c07ede3568089cab016cb02e806
-2009-08-22T12:46:12.613130Z
-17351
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-219
-
 410-gpio_buttons.patch
 file
 
@@ -1181,6 +1147,40 @@ kaloz
 
 
 1093
+
+207-powerpc_asm_segment_h.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+24dc5c07ede3568089cab016cb02e806
+2009-08-22T12:46:12.613130Z
+17351
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+219
 
 202-mips_mem_functions_performance.patch
 file
@@ -1284,40 +1284,6 @@ kaloz
 
 780
 
-013-gcc4_inline_fix.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-b004edbbe4035fe5eb2bea714e1d3293
-2009-12-04T20:26:55.237620Z
-18636
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-413
-
 903-stddef_include.patch
 file
 
@@ -1351,6 +1317,40 @@ mirko
 
 
 322
+
+013-gcc4_inline_fix.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+b004edbbe4035fe5eb2bea714e1d3293
+2009-12-04T20:26:55.237620Z
+18636
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+413
 
 923-gpiommc-configfs-locking.patch
 file
@@ -1420,40 +1420,6 @@ kaloz
 
 6632
 
-212-mini_fo_2.6.26_fixes.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-cd4d9352902d6e48c0e187f3ee5e73a9
-2009-08-22T12:46:12.613130Z
-17351
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1337
-
 940-wireless_mesh_header.patch
 file
 
@@ -1487,6 +1453,40 @@ kaloz
 
 
 354
+
+212-mini_fo_2.6.26_fixes.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+cd4d9352902d6e48c0e187f3ee5e73a9
+2009-08-22T12:46:12.613130Z
+17351
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1337
 
 976-ssb_increase_pci_delay.patch
 file
@@ -1590,17 +1590,17 @@ juhosg
 
 518
 
-065-rootfs_split.patch
+975-hifn795x-byteswap.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-20ccd4008843ba64b2e7cc3806ade446
-2010-02-18T21:34:49.393314Z
-19709
-nbd
+723f63b588c4efe08438f3abad2f90e0
+2010-05-03T20:33:23.255292Z
+21345
+jow
 
 
 
@@ -1622,7 +1622,7 @@ nbd
 
 
 
-15739
+539
 
 600-phy_extension.patch
 file
@@ -1658,17 +1658,17 @@ kaloz
 
 2298
 
-975-hifn795x-byteswap.patch
+065-rootfs_split.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-723f63b588c4efe08438f3abad2f90e0
-2010-05-03T20:33:23.255292Z
-21345
-jow
+20ccd4008843ba64b2e7cc3806ade446
+2010-02-18T21:34:49.393314Z
+19709
+nbd
 
 
 
@@ -1690,7 +1690,7 @@ jow
 
 
 
-539
+15739
 
 400-ledtrig_morse.patch
 file
@@ -1862,40 +1862,6 @@ kaloz
 
 2688
 
-060-block2mtd_init.patch
-file
-
-
-
-
-2010-11-07T22:16:30.000000Z
-5bc10d36085a614d52323abfb437b7e0
-2010-03-14T16:21:33.406208Z
-20205
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3574
-
 510-yaffs_support.patch
 file
 
@@ -1929,6 +1895,40 @@ juhosg
 
 
 452
+
+060-block2mtd_init.patch
+file
+
+
+
+
+2010-11-07T22:16:30.000000Z
+5bc10d36085a614d52323abfb437b7e0
+2010-03-14T16:21:33.406208Z
+20205
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3574
 
 089-mtd-samsung-flash.patch
 file
@@ -2066,17 +2066,17 @@ kaloz
 
 4801
 
-201-jhash3.patch
+630-phy_packets.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-9fa9fcc9fc0b24ea44f0677c2775e08b
-2009-08-22T12:46:12.613130Z
-17351
-mirko
+b83d1bd0ce126fd907c9237337cc7531
+2009-11-03T10:49:27.310927Z
+18283
+kaloz
 
 
 
@@ -2098,7 +2098,7 @@ mirko
 
 
 
-6331
+1912
 
 086-mtd_m25p80_add_xxxs33b_support.patch
 file
@@ -2134,17 +2134,17 @@ juhosg
 
 984
 
-630-phy_packets.patch
+201-jhash3.patch
 file
 
 
 
 
 2010-11-07T22:16:30.000000Z
-b83d1bd0ce126fd907c9237337cc7531
-2009-11-03T10:49:27.310927Z
-18283
-kaloz
+9fa9fcc9fc0b24ea44f0677c2775e08b
+2009-08-22T12:46:12.613130Z
+17351
+mirko
 
 
 
@@ -2166,7 +2166,7 @@ kaloz
 
 
 
-1912
+6331
 
 924-cs5535_gpio.patch
 file

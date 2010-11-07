@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/tools
 svn://svn.openwrt.org/openwrt
 
@@ -108,10 +108,10 @@ has-props
 
 3334
 
-wrt350nv2-builder
+autoconf
 dir
 
-autoconf
+wrt350nv2-builder
 dir
 
 lzma-old
@@ -120,10 +120,10 @@ dir
 mklibs
 dir
 
-gmp
+include
 dir
 
-include
+gmp
 dir
 
 sstrip
@@ -144,9 +144,9 @@ dir
 qemu
 dir
 
-firmware-utils
+mkimage
 dir
 
-mkimage
+firmware-utils
 dir
 

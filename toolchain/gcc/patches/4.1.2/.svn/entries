@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/toolchain/gcc/patches/4.1.2
 svn://svn.openwrt.org/openwrt
 
@@ -128,40 +128,6 @@ hauke
 
 286
 
-820-libgcc_pic.patch
-file
-
-
-
-
-2010-11-07T22:16:21.000000Z
-db8eb7f9d0216fd4bafb80dce964cea9
-2009-10-20T06:48:29.715134Z
-18087
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3156
-
 910-soft-float.patch
 file
 
@@ -195,6 +161,40 @@ hauke
 
 
 956
+
+820-libgcc_pic.patch
+file
+
+
+
+
+2010-11-07T22:16:21.000000Z
+db8eb7f9d0216fd4bafb80dce964cea9
+2009-10-20T06:48:29.715134Z
+18087
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3156
 
 802-fix-ICE-in-arm_unwind_emit_set.patch
 file
@@ -264,40 +264,6 @@ hauke
 
 577
 
-200-uclibc-locale.patch
-file
-
-
-
-
-2010-11-07T22:16:21.000000Z
-504cb074fa5fbffd557a40b07ae01b89
-2009-02-18T18:11:04.478510Z
-14554
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-107087
-
 953-bug_33256.patch
 file
 
@@ -331,6 +297,40 @@ nico
 
 
 2111
+
+200-uclibc-locale.patch
+file
+
+
+
+
+2010-11-07T22:16:21.000000Z
+504cb074fa5fbffd557a40b07ae01b89
+2009-02-18T18:11:04.478510Z
+14554
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107087
 
 303-c99-complex-ugly-hack.patch
 file

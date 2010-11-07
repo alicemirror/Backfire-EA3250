@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/package/kernel/modules
 svn://svn.openwrt.org/openwrt
 
@@ -230,40 +230,6 @@ has-props
 
 2922
 
-sound.mk
-file
-
-
-
-
-2010-11-07T22:16:46.000000Z
-8f20e7f3c26c1d303f3961e6c97cb317
-2010-04-16T03:55:51.374708Z
-20902
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4073
-
 hwmon.mk
 file
 
@@ -298,18 +264,17 @@ has-props
 
 2925
 
-usb.mk
+sound.mk
 file
 
 
 
 
 2010-11-07T22:16:46.000000Z
-0b0fb7a4a981a10c9d4b8c19e8b1d76b
-2010-08-14T09:02:55.332545Z
-22633
+8f20e7f3c26c1d303f3961e6c97cb317
+2010-04-16T03:55:51.374708Z
+20902
 nico
-has-props
 
 
 
@@ -330,7 +295,8 @@ has-props
 
 
 
-25290
+
+4073
 
 netdevices.mk
 file
@@ -366,16 +332,16 @@ jow
 
 10928
 
-block.mk
+usb.mk
 file
 
 
 
 
 2010-11-07T22:16:46.000000Z
-3e5fe7c30c49be584456d28a37813083
-2010-04-03T22:06:06.501234Z
-20688
+0b0fb7a4a981a10c9d4b8c19e8b1d76b
+2010-08-14T09:02:55.332545Z
+22633
 nico
 has-props
 
@@ -398,7 +364,7 @@ has-props
 
 
 
-13791
+25290
 
 xen.mk
 file
@@ -433,6 +399,40 @@ jow
 
 
 2932
+
+block.mk
+file
+
+
+
+
+2010-11-07T22:16:46.000000Z
+3e5fe7c30c49be584456d28a37813083
+2010-04-03T22:06:06.501234Z
+20688
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13791
 
 spi.mk
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/generic-2.4/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ jow
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-630-netfilter_comment.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-8390f4ca98e2e7628658809ce820196c
-2010-04-05T22:54:16.224816Z
-20721
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2648
 
 610-netfilter_connbytes.patch
 file
@@ -94,6 +60,40 @@ has-props
 
 15198
 
+630-netfilter_comment.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+8390f4ca98e2e7628658809ce820196c
+2010-04-05T22:54:16.224816Z
+20721
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2648
+
 213-htb_disable_hysteresis.patch
 file
 
@@ -128,40 +128,6 @@ has-props
 
 633
 
-005-mtd_flashtypes.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-1dab3f698b68ba27f0f0949348e0c139
-2009-05-15T10:36:04.797411Z
-15860
-agb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24342
-
 113-even_more_gcc4_stuff.patch
 file
 
@@ -195,6 +161,40 @@ has-props
 
 
 10455
+
+005-mtd_flashtypes.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+1dab3f698b68ba27f0f0949348e0c139
+2009-05-15T10:36:04.797411Z
+15860
+agb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24342
 
 107-cifs.patch
 file
@@ -332,40 +332,6 @@ has-props
 
 3156
 
-613-netfilter_nat_h323.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-a106b4c845a6523e6e0f0775f3a38729
-2009-10-03T23:51:10.098232Z
-17844
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26285
-
 802-usb_serial_3g_cards.patch
 file
 
@@ -400,17 +366,17 @@ agb
 
 2078
 
-100-wireless-extension.patch
+613-netfilter_nat_h323.patch
 file
 
 
 
 
 2010-11-07T22:16:40.000000Z
-31cb0303a84a5468406b8fec439903e9
-2010-02-19T21:30:10.412893Z
-19762
-hauke
+a106b4c845a6523e6e0f0775f3a38729
+2009-10-03T23:51:10.098232Z
+17844
+nico
 has-props
 
 
@@ -432,7 +398,7 @@ has-props
 
 
 
-40743
+26285
 
 010-disable_old_squashfs_compatibility.patch
 file
@@ -467,6 +433,40 @@ has-props
 
 
 562
+
+100-wireless-extension.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+31cb0303a84a5468406b8fec439903e9
+2010-02-19T21:30:10.412893Z
+19762
+hauke
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40743
 
 620-netfilter_iprange.patch
 file
@@ -1080,40 +1080,6 @@ florian
 
 55593
 
-229-usb_storage_16_byte_cdb.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-3ca52f7d6095d2ad8f1af6386c96a80a
-2009-09-10T10:06:35.137151Z
-17553
-agb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-377
-
 208-usb2_fix.patch
 file
 
@@ -1147,6 +1113,40 @@ has-props
 
 
 491
+
+229-usb_storage_16_byte_cdb.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+3ca52f7d6095d2ad8f1af6386c96a80a
+2009-09-10T10:06:35.137151Z
+17553
+agb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
 
 230-tun_get_user_backport.patch
 file
@@ -1216,40 +1216,6 @@ nico
 
 19284
 
-607-netfilter_connmark.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-047b1e926b89311a85485e33b61c9fa9
-2009-09-10T10:06:35.137151Z
-17553
-agb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11627
-
 201-hfc_usb_backport.patch
 file
 
@@ -1283,6 +1249,40 @@ has-props
 
 
 89503
+
+607-netfilter_connmark.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+047b1e926b89311a85485e33b61c9fa9
+2009-09-10T10:06:35.137151Z
+17553
+agb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11627
 
 226-atm_br2684.patch
 file
@@ -1318,40 +1318,6 @@ has-props
 
 17728
 
-601-netfilter_ipp2p_0.8.1rc1.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-c6c474e06ca152a5939859759b6d0cf8
-2009-05-15T10:36:04.797411Z
-15860
-agb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27523
-
 227-jffs2_eofdetect.patch
 file
 
@@ -1386,14 +1352,14 @@ has-props
 
 2846
 
-112-bridging_performance.patch
+601-netfilter_ipp2p_0.8.1rc1.patch
 file
 
 
 
 
 2010-11-07T22:16:40.000000Z
-b75c1b8d9f3b6e8c57951248ed086531
+c6c474e06ca152a5939859759b6d0cf8
 2009-05-15T10:36:04.797411Z
 15860
 agb
@@ -1418,7 +1384,7 @@ has-props
 
 
 
-726
+27523
 
 700-multiple_default_gateways.patch
 file
@@ -1453,6 +1419,40 @@ has-props
 
 
 35877
+
+112-bridging_performance.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+b75c1b8d9f3b6e8c57951248ed086531
+2009-05-15T10:36:04.797411Z
+15860
+agb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+726
 
 225-string_lib_useful_exports.patch
 file
@@ -1658,40 +1658,6 @@ has-props
 
 23375
 
-615-netfilter_nat_mms.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-3e6f17909c4e1baa52c2db8446436cb1
-2009-10-03T23:51:10.098232Z
-17844
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24175
-
 231-mini_fo.patch
 file
 
@@ -1725,6 +1691,40 @@ has-props
 
 
 217430
+
+615-netfilter_nat_mms.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+3e6f17909c4e1baa52c2db8446436cb1
+2009-10-03T23:51:10.098232Z
+17844
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24175
 
 000-linux_mips.patch
 file
@@ -1828,40 +1828,6 @@ has-props
 
 4932
 
-224-atm_hotplug.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-ccb85a4a1533880a871f3d89e53706c7
-2009-05-15T10:36:04.797411Z
-15860
-agb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2556
-
 801-usb_serial_endpoint_size.patch
 file
 
@@ -1895,6 +1861,40 @@ agb
 
 
 1060
+
+224-atm_hotplug.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+ccb85a4a1533880a871f3d89e53706c7
+2009-05-15T10:36:04.797411Z
+15860
+agb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2556
 
 001-squashfs.patch
 file
@@ -1930,40 +1930,6 @@ has-props
 
 120607
 
-203-hfsplus_fix.patch
-file
-
-
-
-
-2010-11-07T22:16:40.000000Z
-85e0d63a44e8bbb5f6cab93563274668
-2009-05-15T10:36:04.797411Z
-15860
-agb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1049
-
 210-fix-irq-serial.patch
 file
 
@@ -1997,6 +1963,40 @@ has-props
 
 
 544
+
+203-hfsplus_fix.patch
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+85e0d63a44e8bbb5f6cab93563274668
+2009-05-15T10:36:04.797411Z
+15860
+agb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1049
 
 609-netfilter_string.patch
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/toolchain/gcc/patches/4.3.3
 svn://svn.openwrt.org/openwrt
 
@@ -230,40 +230,6 @@ claudio
 
 631
 
-410-fix_pr37436.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-73674ecf2e50e698b2ddc3803f0fd2e5
-2009-03-13T22:35:39.737013Z
-14865
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2542
-
 104-gnuhurd-uclibc-conf.patch
 file
 
@@ -297,6 +263,40 @@ nbd
 
 
 681
+
+410-fix_pr37436.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+73674ecf2e50e698b2ddc3803f0fd2e5
+2009-03-13T22:35:39.737013Z
+14865
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2542
 
 810-arm-softfloat-libgcc.patch
 file
@@ -366,14 +366,14 @@ nbd
 
 9285
 
-305-libmudflap-susv3-legacy.patch
+105-libtool.patch
 file
 
 
 
 
 2010-11-07T22:16:22.000000Z
-d685c46bb950f19bff32d90b498cd9b9
+53770619962f9a69c563cda9b0dca77d
 2009-01-27T21:11:51.022956Z
 14228
 nbd
@@ -398,41 +398,7 @@ nbd
 
 
 
-1352
-
-302-c99-snprintf.patch
-file
-
-
-
-
-2010-11-07T22:16:22.000000Z
-d714c8c775ac8be029d4b8a07beaaccd
-2009-01-27T21:11:51.022956Z
-14228
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-406
+3028
 
 106-fix_linker_error.patch
 file
@@ -468,14 +434,14 @@ nbd
 
 515
 
-105-libtool.patch
+302-c99-snprintf.patch
 file
 
 
 
 
 2010-11-07T22:16:22.000000Z
-53770619962f9a69c563cda9b0dca77d
+d714c8c775ac8be029d4b8a07beaaccd
 2009-01-27T21:11:51.022956Z
 14228
 nbd
@@ -500,7 +466,41 @@ nbd
 
 
 
-3028
+406
+
+305-libmudflap-susv3-legacy.patch
+file
+
+
+
+
+2010-11-07T22:16:22.000000Z
+d685c46bb950f19bff32d90b498cd9b9
+2009-01-27T21:11:51.022956Z
+14228
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1352
 
 998-gcc-4.3.0-fix-header.00.patch
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-23916
+23918
 svn://svn.openwrt.org/openwrt/branches/backfire/target/linux/ixp4xx/patches-2.6.32
 svn://svn.openwrt.org/openwrt
 
@@ -808,40 +808,6 @@ kaloz
 
 8927
 
-050-disable_dmabounce.patch
-file
-
-
-
-
-2010-11-07T22:16:36.000000Z
-79eed50370c58520156dbcb1f56f5474
-2009-11-17T10:06:15.795992Z
-18440
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4811
-
 130-wrt300nv2_support.patch
 file
 
@@ -875,6 +841,40 @@ kaloz
 
 
 6276
+
+050-disable_dmabounce.patch
+file
+
+
+
+
+2010-11-07T22:16:36.000000Z
+79eed50370c58520156dbcb1f56f5474
+2009-11-17T10:06:15.795992Z
+18440
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4811
 
 111-pronghorn_swap_uarts.patch
 file
@@ -1012,40 +1012,6 @@ nbd
 
 1469
 
-302-avila_gpio_device.patch
-file
-
-
-
-
-2010-11-07T22:16:36.000000Z
-72528e51b7339a9e304eb6e2c71324ac
-2009-04-18T17:04:41.871694Z
-15252
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1106
-
 090-increase_entropy_pools.patch
 file
 
@@ -1079,6 +1045,40 @@ kaloz
 
 
 366
+
+302-avila_gpio_device.patch
+file
+
+
+
+
+2010-11-07T22:16:36.000000Z
+72528e51b7339a9e304eb6e2c71324ac
+2009-04-18T17:04:41.871694Z
+15252
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1106
 
 206-npe_driver_add_update_link_function.patch
 file
