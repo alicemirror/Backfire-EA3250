@@ -1,0 +1,43 @@
+10
+
+dir
+23916
+svn://svn.openwrt.org/openwrt/branches/backfire/package/broadcom-wl/src
+svn://svn.openwrt.org/openwrt
+
+
+
+2010-04-07T21:35:50.444227Z
+20741
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+include
+dir
+
+nvram
+dir
+
+wlc
+dir
+
+wlcompat
+dir
+
+driver
+dir
+

@@ -1,0 +1,134 @@
+10
+
+dir
+23916
+svn://svn.openwrt.org/openwrt/branches/backfire/target/linux
+svn://svn.openwrt.org/openwrt
+
+
+
+2010-11-07T15:59:49.149135Z
+23915
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+ifxmips
+dir
+
+generic-2.6
+dir
+
+ppc44x
+dir
+
+brcm-2.4
+dir
+
+x86
+dir
+
+orion
+dir
+
+octeon
+dir
+
+xburst
+dir
+
+kirkwood
+dir
+
+ar7
+dir
+
+ar71xx
+dir
+
+avr32
+dir
+
+rb532
+dir
+
+uml
+dir
+
+cobalt
+dir
+
+ixp4xx
+dir
+
+atheros
+dir
+
+au1000
+dir
+
+rdc
+dir
+
+adm5120
+dir
+
+brcm63xx
+dir
+
+generic-2.4
+dir
+
+Makefile
+file
+
+
+
+
+2010-11-07T22:16:40.000000Z
+4a3c6e549c402779f6bbd7aee0226372
+2009-04-17T14:32:29.989894Z
+15245
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+365
+
+brcm47xx
+dir
+
+ppc40x
+dir
+

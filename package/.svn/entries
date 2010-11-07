@@ -1,0 +1,368 @@
+10
+
+dir
+23916
+svn://svn.openwrt.org/openwrt/branches/backfire/package
+svn://svn.openwrt.org/openwrt
+
+
+
+2010-11-07T13:53:06.663805Z
+23913
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+iw
+dir
+
+swconfig
+dir
+
+6in4
+dir
+
+i2c-gpio-custom
+dir
+
+ebtables
+dir
+
+ncurses
+dir
+
+nvram
+dir
+
+ipset
+dir
+
+mtd
+dir
+
+qos-scripts
+dir
+
+broadcom-diag
+dir
+
+ead
+dir
+
+spidev_test
+dir
+
+block-mount
+dir
+
+wireless-tools
+dir
+
+w1-gpio-custom
+dir
+
+broadcom-57xx
+dir
+
+zlib
+dir
+
+gpioctl
+dir
+
+hostapd
+dir
+
+fuse
+dir
+
+iptables
+dir
+
+hotplug2
+dir
+
+ixp4xx-microcode
+dir
+
+mountd
+dir
+
+ar7-atm
+dir
+
+ubsec_ssb
+dir
+
+base-files
+dir
+
+e2fsprogs
+dir
+
+fconfig
+dir
+
+Makefile
+file
+
+
+
+
+2010-11-07T22:16:50.000000Z
+e2c1123ac6b419c2fe6cc31af97591e0
+2010-11-02T16:40:06.476521Z
+23797
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3444
+
+vsc73x5-ucode
+dir
+
+compcache
+dir
+
+openssl
+dir
+
+px5g
+dir
+
+ifx-vmmc
+dir
+
+avila-wdt
+dir
+
+br2684ctl
+dir
+
+apex
+dir
+
+ocf-crypto-headers
+dir
+
+wprobe
+dir
+
+pcmcia-cs
+dir
+
+libnl
+dir
+
+opkg
+dir
+
+switch
+dir
+
+udev
+dir
+
+libtool
+dir
+
+uboot-ifxmips
+dir
+
+dnsmasq
+dir
+
+siit
+dir
+
+uhttpd
+dir
+
+crda
+dir
+
+libreadline
+dir
+
+linux-atm
+dir
+
+uboot-lantiq
+dir
+
+kernel
+dir
+
+libnl-tiny
+dir
+
+ifx-tapi
+dir
+
+wrt55agv2-spidevs
+dir
+
+pptp
+dir
+
+ifx-tapidemo
+dir
+
+ifxos
+dir
+
+button-hotplug
+dir
+
+mac80211
+dir
+
+hostap-utils
+dir
+
+ep80579-drivers
+dir
+
+dropbear
+dir
+
+ppp
+dir
+
+uboot-envtools
+dir
+
+rt2570
+dir
+
+acx-mac80211
+dir
+
+ifxmips-dsl-api
+dir
+
+broadcom-wl
+dir
+
+rtc-rv5c386a
+dir
+
+iproute2
+dir
+
+comgt
+dir
+
+libpcap
+dir
+
+acx
+dir
+
+util-linux-ng
+dir
+
+ifxmips-dsl-control
+dir
+
+arptables
+dir
+
+madwifi
+dir
+
+uci
+dir
+
+lua
+dir
+
+robocfg
+dir
+
+mmc_over_gpio
+dir
+
+hostap-driver
+dir
+
+udevtrigger
+dir
+
+bridge-utils
+dir
+
+busybox
+dir
+
+gdb
+dir
+
+block-extroot
+dir
+
+yamonenv
+dir
+
+kexec-tools
+dir
+
+cyassl
+dir
+
+grub
+dir
+
+admswconfig
+dir
+
+firewall
+dir
+
+spi-ks8995
+dir
+
+libipfix
+dir
+
+nozomi
+dir
+
+r8101
+dir
+
+ifenslave
+dir
+
