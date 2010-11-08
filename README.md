@@ -46,8 +46,8 @@ Git does not allow you to work in remote branches, so create a local git branch 
 Checkout your version branch, fix bug, and do a git push. 
 Prior to each deployment, create a git remote tag incremented for the next release.
 
-git tag release-0.1.1
-git push --tags
+ git tag release-0.1.1
+ git push --tags
 
 Repeat tagging procedure for each bug until next version.
 After your are finished with a particular Version, merge changes back to master.
