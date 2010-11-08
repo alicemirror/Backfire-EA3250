@@ -13,21 +13,21 @@ v 0.1.2
 [ling](http://www.google.com)
 
 
-Typical-Git-workflow
+(Typical-Git-workflow)[https://github.com/bard/sameplace/wiki/Typical-Git-workflow]
 
-git clone git://github.com/bard/sameplace.git
-git branch fix_for_foobar
-git checkout fix_for_foobar
-git commit -a -m 'Join Room Dialog: foobar functionality was broken.  Fixed.'
+	git clone git://github.com/bard/sameplace.git
+	git branch fix_for_foobar
+	git checkout fix_for_foobar
+	git commit -a -m 'Join Room Dialog: foobar functionality was broken.  Fixed.'
 
-git checkout master
-git pull
+	git checkout master
+	git pull
 
-git rebase fix_for_foobar
+	git rebase fix_for_foobar
 
-git format-patch origin
+	git format-patch origin
 
-[https://github.com/bard/sameplace/wiki/Typical-Git-workflow]
+
 
 +++++++++++++++++++++++++
 Multi-staged deployment with versioning using git.
