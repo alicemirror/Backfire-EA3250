@@ -92,3 +92,5 @@ What do maintainers do?
 
 High-level Best Practices in Software Configuration Management
 [http://www.perforce.com/perforce/papers/bestpractices.html]
+
+Git usefull http://linux.yyz.us/git-howto.html
