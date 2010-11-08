@@ -11,7 +11,7 @@
 
 [ling](http://www.google.com)
 
-#### basic commands
+## basic commands
 
 #### [remove tags and branches](http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html)
 
@@ -29,7 +29,7 @@ dove release-0.x.x è un tag
 
 --------
 
-#### workflow
+## workflow
 
 ##### [Typical-Git-workflow](https://github.com/bard/sameplace/wiki/Typical-Git-workflow)
 
