@@ -13,20 +13,21 @@
 
 #### basic commands
 
-#### [remove tags  branches](http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html)
+#### [remove tags and branches](http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html)
 
+##### tags
     git push origin :release-0.x.x
 
 dove release-0.x.x è un tag
 
-#### remove branches
+#####  branches
 
-git push origin :version-x
-git branch -d version-x
+    git push origin :version-x
+    git branch -d version-x
 
 [http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html]
 
-- - -
+--------
 
 #### workflow
 
