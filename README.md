@@ -6,14 +6,31 @@
 
 ### TODO
 
-v 0.1.2
 
 ---
 
 [ling](http://www.google.com)
 
+#### basic commands
 
-(Typical-Git-workflow)[https://github.com/bard/sameplace/wiki/Typical-Git-workflow]
+#### [remove tags  branches](http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html)
+
+    git push origin :release-0.x.x
+
+dove release-0.x.x è un tag
+
+#### remove branches
+
+git push origin :version-x
+git branch -d version-x
+
+[http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html]
+
+- - -
+
+#### workflow
+
+##### [Typical-Git-workflow](https://github.com/bard/sameplace/wiki/Typical-Git-workflow)
 
 	git clone git://github.com/bard/sameplace.git
 	git branch fix_for_foobar
@@ -28,9 +45,9 @@ v 0.1.2
 	git format-patch origin
 
 
-
+[https://github.com/bard/sameplace/wiki/Typical-Git-workflow]
 +++++++++++++++++++++++++
-Multi-staged deployment with versioning using git.
+##### [Multi-staged deployment with versioning using git] (http://blog.elctech.com/2008/12/17/multi-staged-deployment-with-versioning-using-git/)
 
    1. Create Version for each sprint
    2. Deploy Version after each Demo
