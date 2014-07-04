@@ -1,3 +1,5 @@
+v0.0.2
+
 # Title
  
 ## Description
@@ -6,31 +8,49 @@
 
 ### TODO
 
-v 0.1.2
 
 ---
 
 [ling](http://www.google.com)
 
+## basic commands
 
-Typical-Git-workflow
+#### [remove tags and branches](http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html)
 
-git clone git://github.com/bard/sameplace.git
-git branch fix_for_foobar
-git checkout fix_for_foobar
-git commit -a -m 'Join Room Dialog: foobar functionality was broken.  Fixed.'
+##### tags
+    git push origin :release-0.x.x
 
-git checkout master
-git pull
+dove release-0.x.x è un tag
 
-git rebase fix_for_foobar
+#####  branches
 
-git format-patch origin
+    git push origin :version-x
+    git branch -d version-x
+
+[http://www.gitready.com/beginner/2009/02/02/push-and-delete-branches.html]
+
+--------
+
+## workflow
+
+##### [Typical-Git-workflow](https://github.com/bard/sameplace/wiki/Typical-Git-workflow)
+
+	git clone git://github.com/bard/sameplace.git
+	git branch fix_for_foobar
+	git checkout fix_for_foobar
+	git commit -a -m 'Join Room Dialog: foobar functionality was broken.  Fixed.'
+
+	git checkout master
+	git pull
+
+	git rebase fix_for_foobar
+
+	git format-patch origin
+
 
 [https://github.com/bard/sameplace/wiki/Typical-Git-workflow]
-
 +++++++++++++++++++++++++
-Multi-staged deployment with versioning using git.
+##### [Multi-staged deployment with versioning using git] (http://blog.elctech.com/2008/12/17/multi-staged-deployment-with-versioning-using-git/)
 
    1. Create Version for each sprint
    2. Deploy Version after each Demo
@@ -57,18 +77,20 @@ After your are finished with a particular Version, merge changes back to master.
 
 What do maintainers do?
 
-  git checkout upstream
-  git pull origin
-  git checkout topic/a
-  git merge upstream
-  git checkout topic/b
-  git merge upstream
-  git checkout master
-  git merge topic/a  topic/b
-  # do the release thing
-  git commit
+	git checkout upstream
+	git pull origin
+	git checkout topic/a
+	git merge upstream
+	git checkout topic/b
+	git merge upstream
+	git checkout master
+	git merge topic/a  topic/b
+	# do the release thing
+	git commit
 
 [http://www.golden-gryphon.com/software/misc/packaging.html]
 
 High-level Best Practices in Software Configuration Management
 [http://www.perforce.com/perforce/papers/bestpractices.html]
+
+Git usefull http://linux.yyz.us/git-howto.html
